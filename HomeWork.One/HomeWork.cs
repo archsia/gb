@@ -92,9 +92,9 @@ namespace Gb.HomeWork.One
             try
             {
                 Console.Write("Height (cm): ");
-                height = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
+                height = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException()) / 100;
                 Console.Write("Weight (kg): ");
-                weight = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException()) / 10;
+                weight = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
                 Console.WriteLine($"Result: {weight / Math.Pow(height, 2)}");
             }
             catch (Exception ex)
