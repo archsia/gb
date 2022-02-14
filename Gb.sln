@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Two", "HomeWork.Tw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Three", "HomeWork.Three\HomeWork.Three.csproj", "{E09B52F0-FBB8-45EF-8570-6713EA367FFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Four", "HomeWork.Four\HomeWork.Four.csproj", "{84593FCC-7136-4FFA-A25D-DBFBB718D328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperArrayLib", "SuperArrayLib\SuperArrayLib.csproj", "{9E5A28F6-57A3-45C0-B766-C8EE06111BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimensionalArrayLib", "TwoDimensionalArrayLib\TwoDimensionalArrayLib.csproj", "{E20CF0FD-0835-4218-A5EB-4D60C725AE4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
