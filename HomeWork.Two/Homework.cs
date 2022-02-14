@@ -191,7 +191,7 @@ namespace HomeWork.Two
                     if (num % 2 == 1 && num > 0) evenList.Add(num);
                 }
 
-                Console.WriteLine($"Sum of even numbers: {evenList.Sum()}");
+                Console.WriteLine($"Sum of positive even numbers: {evenList.Sum()}");
             }
             catch (Exception ex)
             {
