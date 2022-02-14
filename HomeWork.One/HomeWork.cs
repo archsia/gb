@@ -1,8 +1,9 @@
 // See https://aka.ms/new-console-template for more information
 
 using System;
+using Gb.HomeWork.One;
 
-namespace Gb.HomeWork.One
+namespace HomeWork.One
 {
     class ExOne
     {
