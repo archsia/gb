@@ -4,9 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using HomeWork.Two;
 using HomeWork.Two.Struct;
 
-namespace HomeWork.Two
+namespace Homework.Two
 {
     static class HomeWork
     {
