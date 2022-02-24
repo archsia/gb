@@ -1,12 +1,8 @@
 namespace HomeWork.Eight.Player
 {
-    public class User
+    public struct User
     {
         public string Nickname { get; }
-
-        public User()
-        {
-        }
 
         public User(string nickname)
         {

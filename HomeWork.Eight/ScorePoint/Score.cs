@@ -4,15 +4,11 @@ using HomeWork.Eight.Player;
 
 namespace HomeWork.Eight.ScorePoint
 {
-    public class Score
+    public struct Score
     {
-        public User User { get; set; }
+        public User? User { get; set; }
         public int Value { get; set; }
-
-        public Score()
-        {
-            
-        }
+        
         public Score(int value)
         {
             Value = value;
