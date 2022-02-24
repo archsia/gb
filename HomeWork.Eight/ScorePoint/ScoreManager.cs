@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
+using System.Text.Json.Serialization;
 using System.Xml.Serialization;
-using Player;
 
 namespace HomeWork.Eight.ScorePoint
 {

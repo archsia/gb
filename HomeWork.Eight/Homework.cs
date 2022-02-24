@@ -3,8 +3,8 @@
 using System;
 using System.Globalization;
 using System.Net;
+using HomeWork.Eight.Player;
 using HomeWork.Eight.ScorePoint;
-using Player;
 
 namespace HomeWork.Eight
 {

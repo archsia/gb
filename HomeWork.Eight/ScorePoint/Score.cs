@@ -1,13 +1,12 @@
+using System;
 using System.Xml.Serialization;
-using Player;
+using HomeWork.Eight.Player;
 
 namespace HomeWork.Eight.ScorePoint
 {
     public class Score
     {
-        [XmlAttribute]
-        public User? User { get; set; }
-        [XmlAttribute]
+        public User User { get; set; }
         public int Value { get; set; }
 
         public Score()

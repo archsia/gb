@@ -1,25 +1,21 @@
-using System.Xml.Serialization;
-
-namespace Player
+namespace HomeWork.Eight.Player
 {
     public class User
     {
-        private string _nickname;
-        [XmlAttribute]
-        public string Nickname => _nickname;
+        public string Nickname { get; }
 
         public User()
         {
-            
         }
+
         public User(string nickname)
         {
-            _nickname = nickname;
+            Nickname = nickname;
         }
 
         public override string ToString()
         {
-            return _nickname;
+            return Nickname;
         }
     }
 }
